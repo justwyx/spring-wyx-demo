@@ -5,10 +5,10 @@ package com.wyx;
  * @Description : TODO 2020/7/26
  * @Date : 2020/7/26
  */
-public class UserService {
+public class BybService {
 	private String name;
 
-	private BybService bybService;
+
 
 	public String getName() {
 		return name;
@@ -18,17 +18,9 @@ public class UserService {
 		this.name = name;
 	}
 
-	public BybService getBybService() {
-		return bybService;
-	}
-
-	public void setBybService(BybService bybService) {
-		this.bybService = bybService;
-	}
 
 	public void sayHello() {
 		System.out.println("hello world: " + name);
-		bybService.sayHello();
 	}
 
 }
